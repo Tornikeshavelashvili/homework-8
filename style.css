@@ -1,0 +1,31 @@
+div {
+    background-color: pink;
+    width: 400px;
+    margin: 50px 50px;
+}
+
+button {
+    margin: 50px 50px;
+    width: 300px;
+    height: 100px;
+    color: white;
+    text-shadow: 5px 3px 3px black;
+    background-color: pink;
+    font-size: 30px;
+    border-radius: 30px;
+    border: none;
+    box-shadow: 10px 10px 10px 0 black,
+        3px 3px 10px 0 white inset;
+        cursor: pointer;
+
+
+
+}
+
+button:hover {
+    box-shadow: 3px 3px 3px 0 white,
+    10px 10px 10px 0 black inset;
+    cursor: pointer;
+    text-shadow: 1px 3px 3px black;
+
+}
